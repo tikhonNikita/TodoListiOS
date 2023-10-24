@@ -40,6 +40,7 @@
 		31EA85D12AE82298003ABC42 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA85D02AE82298003ABC42 /* LoginViewViewModel.swift */; };
 		31EA85D52AE822A9003ABC42 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA85D42AE822A9003ABC42 /* RegisterViewViewModel.swift */; };
 		31EA85D92AE822B5003ABC42 /* TodoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA85D82AE822B5003ABC42 /* TodoListItemViewViewModel.swift */; };
+		31EA85DD2AE82C45003ABC42 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA85DC2AE82C45003ABC42 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		31EA85D02AE82298003ABC42 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		31EA85D42AE822A9003ABC42 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		31EA85D82AE822B5003ABC42 /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		31EA85DC2AE82C45003ABC42 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				31EA85AC2AE8208E003ABC42 /* LoginView.swift */,
 				31EA85B02AE82095003ABC42 /* RegisterView.swift */,
 				31EA85B42AE820BE003ABC42 /* TodoListItemView.swift */,
+				31EA85DC2AE82C45003ABC42 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31EA85BD2AE82246003ABC42 /* TodoListItem.swift in Sources */,
+				31EA85DD2AE82C45003ABC42 /* HeaderView.swift in Sources */,
 				31EA85D92AE822B5003ABC42 /* TodoListItemViewViewModel.swift in Sources */,
 				31EA85AD2AE8208E003ABC42 /* LoginView.swift in Sources */,
 				31EA85D52AE822A9003ABC42 /* RegisterViewViewModel.swift in Sources */,

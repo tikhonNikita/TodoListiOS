@@ -16,6 +16,7 @@ struct LoginView: View {
     
     
     var body: some View {
+        NavigationView {
             VStack {
                 //Header
                 HeaderView(
@@ -49,6 +50,7 @@ struct LoginView: View {
                 }
                 
                 Spacer()
+            }
         }
     }
 }

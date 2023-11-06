@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension TodoListItemView {
+    @MainActor class ViewModel : ObservableObject {
+        
+    }
+}

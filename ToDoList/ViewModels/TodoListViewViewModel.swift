@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+extension TodoListView {
+    @MainActor class ViewModel : ObservableObject {
+        @Published var showingNewItemView = false
+        
+    }
+}
+
+
+

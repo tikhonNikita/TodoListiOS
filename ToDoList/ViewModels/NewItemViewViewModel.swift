@@ -25,21 +25,21 @@ extension NewItemView {
                 return
             }
             
-            // get current userID
-            
-            // create Model
-            let newId = UUID().uuidString
-            let newItem = TodoListItem(
-                id: newId, title: title, dueDate: dueDate.timeIntervalSince1970, createdDate: Date().timeIntervalSince1970, isDone: false
-            )
-            
-            // save model
             let db = Firestore.firestore()
-            db.collection("users")
+            let ref = db.collection("users")
                 .document(uId)
                 .collection("todos")
                 .document()
-                .setData(newItem.asDictionary())
+            
+            let newID = ref.documentID
+            // get current userID
+            
+            let newItem = TodoListItem(
+                id: newID, title: title, dueDate: dueDate.timeIntervalSince1970, createdDate: Date().timeIntervalSince1970, isDone: false
+            )
+            
+          
+            ref.setData(newItem.asDictionary())
             
             //
             
